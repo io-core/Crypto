@@ -1,6 +1,4 @@
-package [core]/Crypto v0.1.0
-
-require (
-        [core]/System v5.0.0
-)
-
+k,v1,v2
+package,Crypto,v0.1.0
+from,github.com/io-core,
+license,MIT,The io-core Authors
