@@ -2,3 +2,5 @@ k,v1,v2
 package,Crypto,v0.1.0
 from,github.com/io-core,
 license,MIT,The io-core Authors
+doc,stdlib,provides common cryptographic algorithms.
+p,Crypto.Mod,
