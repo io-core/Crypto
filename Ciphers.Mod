@@ -1,3 +1,7 @@
+(* begin-module-description
+Module Ciphers provides cryptographic interfaces and algorithms.
+
+end-module-description *)
 MODULE Ciphers;
 IMPORT SYSTEM, Kernel, Oberon;
 

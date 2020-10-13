@@ -1,3 +1,24 @@
+(* begin-package-description
+## Overview
+The Crypto package provides:
+
+* Cryptographic utilities
+* Cryptographic Algorithms
+
+## Examples
+
+USAGE:
+```
+--none yet--
+```
+
+## Modules
+end-package-description *)
+
+(* begin-module-description
+Module Crypto provides command tools for cryptographic functions.
+
+end-module-description *)
 MODULE Crypto;
 
   IMPORT Files, Fonts, Viewers, Texts, Oberon,

@@ -4,3 +4,6 @@ from,github.com/io-core,
 license,MIT,The io-core Authors
 doc,stdlib,provides common cryptographic algorithms.
 p,Crypto.Mod,
+p,VaultFrames.Mod,
+p,Vaults.Mod,
+p,Ciphers.Mod,
