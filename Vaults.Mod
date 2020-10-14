@@ -1,7 +1,7 @@
-(* begin-module-description
+(* begin-module-use-description
 Module Vaults provides an infrastructure for secrets and vaults.
 
-end-module-description *)
+end-module-use-description *)
 MODULE Vaults;
 
   IMPORT SYSTEM, Files, Fonts, Ciphers;

@@ -15,10 +15,10 @@ USAGE:
 ## Modules
 end-package-description *)
 
-(* begin-module-description
+(* begin-module-use-description
 Module Crypto provides command tools for cryptographic functions.
 
-end-module-description *)
+end-module-use-description *)
 MODULE Crypto;
 
   IMPORT Files, Fonts, Viewers, Texts, Oberon,

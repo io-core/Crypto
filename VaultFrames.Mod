@@ -1,7 +1,7 @@
-(* begin-module-description
+(* begin-module-use-description
 Module VaultFrames provides a user-interface for manipulating secrets and vaults.
 
-end-module-description *)
+end-module-use-description *)
 MODULE VaultFrames;
 
   IMPORT SYSTEM, Display, Viewers, Input, Fonts, Texts, Vaults, Oberon, MenuViewers;
