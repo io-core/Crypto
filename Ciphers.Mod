@@ -3,14 +3,18 @@ Module Ciphers provides cryptographic interfaces and algorithms.
 
 end-module-use-description *)
 MODULE Ciphers;
-IMPORT SYSTEM, Kernel, Oberon;
+  IMPORT SYSTEM, Kernel, Oberon;
 
-TYPE
-  Cipher* = POINTER TO CipherDesc;
-  CipherDesc* = RECORD
-    value*: INTEGER;
-    next: Cipher
-  END;
+  CONST
+
+  TYPE
+    Cipher* = POINTER TO CipherDesc;
+    CipherDesc* = RECORD
+      value*: INTEGER;
+      next: Cipher
+    END;
+
+  VAR
 
 PROCEDURE New*(C: Cipher; v: INTEGER) : Cipher;
 BEGIN

@@ -59,8 +59,6 @@ MODULE Vaults;
     END;
 
     MethodDesc* = RECORD
-(*        module*, allocator*: Name;
-        new*: Modules.Command;             *)
         copy*: PROCEDURE (from, to: Document);
         draw*, change*: PROCEDURE (D: Document; VAR msg: Msg);
         selectable*: PROCEDURE (D: Document; x, y: INTEGER): BOOLEAN;
@@ -70,7 +68,7 @@ MODULE Vaults;
       END ;
 
     
-VAR 
+  VAR 
  
   res*: INTEGER;
   width: INTEGER;

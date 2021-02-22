@@ -20,11 +20,11 @@ Module Crypto provides command tools for cryptographic functions.
 
 end-module-use-description *)
 MODULE Crypto;
-
-  IMPORT Files, Fonts, Viewers, Texts, Oberon,
-    TextFrames, MenuViewers, Vaults, VaultFrames;
+  IMPORT Files, Fonts, Viewers, Texts, Oberon, TextFrames, MenuViewers, Vaults, VaultFrames;
 
   CONST Menu = "System.Close  System.Copy  System.Grow  Crypto.Delete  Crypto.Ticks  Crypto.Restore  Crypto.Store";
+
+  TYPE
 
   VAR W: Texts.Writer;
 
